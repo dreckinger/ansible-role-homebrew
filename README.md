@@ -1,6 +1,5 @@
 # Ansible Role: Homebrew
 
-[![Build Status](https://travis-ci.org/geerlingguy/ansible-role-homebrew.svg?branch=master)](https://travis-ci.org/geerlingguy/ansible-role-homebrew)
 
 Installs Homebrew on Mac OS X, and configures packages, taps, and cask apps according to supplied variables.
 
@@ -63,7 +62,7 @@ None.
         homebrew_installed_packages:
           - mysql
       roles:
-        - { role: geerlingguy.homebrew }
+        - { role: dreckinger.homebrew }
 
 ## License
 
